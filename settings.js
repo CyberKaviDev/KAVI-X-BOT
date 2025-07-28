@@ -1,7 +1,7 @@
 const fs = require('fs')
 const chalk = require('chalk')
 
-global.sessionID = process.env.SESSIONID || "KAVI-X-SESSION-ID~W5wXCBBY#dUzM1gTMR9xgQPb4xjBH1PFpkSwL-5LAPif5ax3p9bk"
+global.sessionID = process.env.SESSIONID || "KAVI-X-SESSION-ID~75ByxKoQ#0eE6y7Qfpi9CnXURSrRV8y6Y2StkV1adhn2BMU2MJ2A"
 global.botname = process.env.BOTNAME || "KAVI-X MD"
 global.ownernumber = process.env.OWNERNUMBER || "94702128378"
 global.ownername = process.env.OWNERNAME || "Cyber Kavi"
@@ -13,7 +13,7 @@ global.author = process.env.AUTHOR || "Cyber Kavi"
 global.creator = process.env.CREATOR || "94702128378@s.whatsapp.net"
 global.botprefix = process.env.BOTPREFIX || "."
 global.restart = process.env.RESTART || true
-global.mongoDB = process.env.MONGODB_URI || "mongodb+srv://kavishka:KAVImihi321@whatsapp-bot.ssmxc2a.mongodb.net/0785181711?retryWrites=true&w=majority&appName=whatsapp-bot"
+global.mongoDB = process.env.MONGODB_URI || "mongodb+srv://kavishka:KAVImihi321@whatsapp-bot.ssmxc2a.mongodb.net/0763172971?retryWrites=true&w=majority&appName=whatsapp-bot"
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
